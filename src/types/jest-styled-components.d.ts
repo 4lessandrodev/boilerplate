@@ -3,7 +3,7 @@
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/ban-types */
-import { Plugin, NewPlugin } from 'pretty-format'
+import { Plugin, NewPlugin } from 'pretty-format';
 
 declare global {
   namespace jest {
@@ -12,7 +12,7 @@ declare global {
       sample?: string | RegExp | object | Array<any> | Function
     }
 
-    type Value = string | number | RegExp | AsymmetricMatcher | undefined
+    type Value = string | number | RegExp | AsymmetricMatcher | undefined;
 
     interface Options {
       media?: string
@@ -27,4 +27,4 @@ declare global {
   }
 }
 
-export declare const styleSheetSerializer: Exclude<Plugin, NewPlugin>
+export declare const styleSheetSerializer: Exclude<Plugin, NewPlugin>;
