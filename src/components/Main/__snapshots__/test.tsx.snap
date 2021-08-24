@@ -2,8 +2,8 @@
 
 exports[`<Main /> should render the heading 1`] = `
 .c0 {
-  background-color: #06092b;
-  color: #fff;
+  background-color: #ffffff;
+  color: #212d57;
   width: 100%;
   height: 100%;
   padding: 3rem;
@@ -48,24 +48,24 @@ exports[`<Main /> should render the heading 1`] = `
   class="c0"
 >
   <img
-    alt="Imagem de um átomo e React Avançado escrito ao lado."
+    alt="Image with a rocket in black and white and two planets beside"
     class="c1"
-    src="/img/logo.svg"
+    src="/img/rocket.png"
   />
   <h1
     class="c2"
   >
-    React Avançado
+    TEMPLATE READY
   </h1>
   <h2
     class="c3"
   >
-    TypeScript, ReactJS, NextJS e Styled Components
+    All ok and running...
   </h2>
   <img
-    alt="Um desenvolvedor de frente para uma tela com código."
+    alt="Image with word answer and a number 42 beside"
     class="c4"
-    src="/img/hero-illustration.svg"
+    src="/img/logo.jpg"
   />
 </main>
-`
+`;

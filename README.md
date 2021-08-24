@@ -1,8 +1,10 @@
 
-![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
+# Template to start a new next.js configured project
 
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
-![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
+> Use this repository to start a new next configured app
+
+`$ yarn create next-app -e https://github.com/4lessandrodev/boilerplate <project-name>`
+
 ## What is inside?
 
 This project uses lot of stuff as:
@@ -16,6 +18,7 @@ This project uses lot of stuff as:
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
+- [CommitLint](https://www.npmjs.com/package/git-commit-msg-linter)
 
 ## Getting Started
 
